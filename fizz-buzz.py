@@ -35,7 +35,7 @@ def fizzBuzz(n):
 fizzBuzz(15)
 
 # *******************************************************************************
-# Solution 2
+# Solution 2 (ternary)
 def fizzBuzz2(n):
     return ['Fizz' * (not i % 3) + 'Buzz' * (not i % 5) or str(i) for i in range(1, n+1)]
 
