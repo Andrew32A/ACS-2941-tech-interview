@@ -13,6 +13,14 @@
 
 # *******************************************************************************
 # Solution 1
+
+# step 1: create function that takes in number
+# step 2: iterate that incriments from 1 to input number
+# step 3: check if divisible by 3 and 5 first, if so return "FizzBuzz"
+# step 4: check if divisible by 3, if so return "Fizz"
+# step 5: check if divisible by 5, if so return "Buzz"
+# step 6: else, return number
+
 def fizzBuzz(n):
     for i in range(n + 1):
         if i % 3 == 0 and i % 5 == 0:
