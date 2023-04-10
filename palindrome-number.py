@@ -29,11 +29,8 @@
 # 5. The function compares the original string "121" to the reversed string "121", and finds that they are equal.
 # 6. Since the two strings are equal, the function returns True, indicating that x = 121 is a palindrome.
 
-def isPalindrome(x: int) -> bool:
-    # Convert the integer to a string and reverse it
+def isPalindrome(x):
     reversed_str = str(x)[::-1]
-    
-    # Check if the reversed string is equal to the original string
     return str(x) == reversed_str
 
 print(isPalindrome(121))
