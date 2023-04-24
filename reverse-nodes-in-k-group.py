@@ -85,3 +85,5 @@ def reverseKGroup(head, k):
                 break
             prev = prev.next
     return dummy.next
+
+# Time complexity: O(n)

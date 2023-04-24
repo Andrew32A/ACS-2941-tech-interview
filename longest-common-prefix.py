@@ -32,3 +32,5 @@ def longestCommonPrefix(strs):
 
 strings = ["flower","flow","flight"]
 print(longestCommonPrefix(strings))
+
+# Time complexity: O(n*m)

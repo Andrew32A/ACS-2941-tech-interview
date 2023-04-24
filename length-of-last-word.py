@@ -35,6 +35,8 @@ def lengthOfLastWord(s):
 
 print(lengthOfLastWord("hello world"))
 
+# Time complexity: O(n)
+
 # *******************************************************************************
 # Solution 2
 

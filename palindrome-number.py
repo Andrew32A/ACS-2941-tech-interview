@@ -34,3 +34,5 @@ def isPalindrome(x):
     return str(x) == reversed_str
 
 print(isPalindrome(121))
+
+# Time complexity: O(log n)

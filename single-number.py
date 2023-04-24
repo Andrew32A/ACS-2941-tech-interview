@@ -27,3 +27,5 @@ def singleNumber(nums):
 
 numberList = [4, 1, 2, 1, 2]
 print(singleNumber(numberList))
+
+# Time complexity: O(n)

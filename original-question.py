@@ -45,3 +45,5 @@ nums3 = [2]
 print(find_second_smallest(nums1)) # should print 3
 print(find_second_smallest(nums2)) # should print 3
 print(find_second_smallest(nums3)) # should print -1
+
+# Time complexity: O(n*log n)

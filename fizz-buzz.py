@@ -34,6 +34,8 @@ def fizzBuzz(n):
         
 fizzBuzz(15)
 
+# Time complexity: O(n)
+
 # *******************************************************************************
 # Solution 2 (ternary)
 def fizzBuzz2(n):

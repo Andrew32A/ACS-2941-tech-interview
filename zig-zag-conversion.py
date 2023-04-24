@@ -71,3 +71,5 @@ def convert(s, numRows):
     return ''.join(rows)
 
 print(convert("PAYPALISHIRING", 4))
+
+# Time complexity: O(n)
