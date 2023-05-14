@@ -12,6 +12,16 @@
 # Output: [1,2]
 
 # ******************************************************************************
+# Steps
+# Create two dummy nodes h1 and h2, each representing the head of the linked lists containing nodes with values less than x and greater than or equal to x, respectively.
+# Create two "tail" nodes l1 and l2, each representing the last node in the respective linked list. Initially, these nodes point to the corresponding dummy nodes.
+# Traverse the input linked list starting from the head. For each node:
+# If its value is less than x, append it to the l1 linked list by setting l1.next to the current node and updating l1 to the current node.
+# Otherwise, append it to the l2 linked list by setting l2.next to the current node and updating l2 to the current node.
+# After all nodes have been processed, set l2.next to None to terminate the l2 linked list.
+# Connect the two linked lists by setting l1.next to h2.next.
+# Return the head of the h1 linked list.
+
 #  Solution
 
 class ListNode:
