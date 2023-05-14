@@ -14,8 +14,8 @@
 # Example 3:
 # Input: strs = ["a"]
 # Output: [["a"]]
-# *******************************************************************************
 
+# *******************************************************************************
 # Solution
 # 1. Define a function called "groupAnagrams" that takes a list of strings "strs" as an input.
 # 2. Initialize a dictionary called "anagrams" to an empty dictionary.
